@@ -1,0 +1,44 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right; 
+    background-color: #000000; /* Color de fondo para verlo mejor */
+}
+
+/* Estilo para los elementos del menú */
+.menu-lista li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Efecto al pasar el mouse */
+.menu-lista li a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.bienvenidos {
+    margin-top: 20px;
+}
+
+.subtitulo {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
