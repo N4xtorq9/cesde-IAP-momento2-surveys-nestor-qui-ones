@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
@@ -119,7 +120,7 @@ label {
 }
 
 .boton-enviar {
-    width: 10%;
+    width: 50%;
     background-color: #5A7F78;
     color: white;
     padding: 10px;
@@ -135,4 +136,13 @@ label {
 .boton-enviar:hover {
     background-color: #314c53;
     transform: translateY(-2px);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.titulo-form {
+    text-align: center;
 }
