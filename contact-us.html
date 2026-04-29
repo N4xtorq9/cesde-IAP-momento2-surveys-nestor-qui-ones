@@ -25,36 +25,46 @@
     </header>
 
     <main>
-        
-        <form action="/registro" method="post" enctype="multipart/form-data">
-            <fieldset>
+
+        <form>
+            <fieldset class="contact">
                 <legend class="contacto-legend">Contacto </legend>
-                Escriba su nombre: <input type="text" id="nombre" name="nombre" placeholder="Nombre"
-                    pattern="[a-z]{1,15}" required>
-                <br>
-                <br>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" placeholder="Correo electrónico" pattern="[a-z]{1,15}"
-                    required>
-                <br>
-                <br>
-                <label for="check">Acepta terminos y condiciones</label>
-                
-                <input type="radio" name="frecuencia" id="">Sí
-                <input type="radio" name="frecuencia" id="">No
+                <p>
+                    Escriba su nombre: <input type="text" id="nombre" name="nombre" placeholder="Nombre"
+                        pattern="[a-z]{1,15}" required>
+                </p>
+                <p>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" pattern="[a-z]{1,15}"
+                        required>
+                </p>
+                <p>
+                    <label for="">Género: </label>
+                    <input type="radio" name="genero" id="" required />Masculino
+                    <input type="radio" name="genero" id="" required />Femenino
+                    <input type="radio" name="genero" id="" required />Otro
+                </p>
 
-                <br><br>
-                Dejame tu comentario: <br>
+                <p>
+                    <label for="check">Acepta terminos y condiciones</label>
 
-                <textarea name="comentario" id="comentario" rows="9" cols="20"></textarea>
-                <button type="submit">Enviar</button>
+                    <input type="radio" name="frecuencia" id="" required>Sí
+                    <input type="radio" name="frecuencia" id="" required>No
+                </p>
+                <p>
+
+                    Dejame tu comentario: <br>
+
+                    <textarea name="comentario" id="comentario" rows="9" cols="20"></textarea>
+                </p>
+                <button type="submit" class="boton-enviar">Enviar</button>
             </fieldset>
         </form>
     </main>
 </body>
 
 <footer class="footer">
-        <p> Nestor Javier Quiñones Valencia | Proyecto académico sin frameworks – 2026 Momento 2 </p>
-    </footer>
+    <p> Nestor Javier Quiñones Valencia | Proyecto académico sin frameworks – 2026 Momento 2 </p>
+</footer>
 
 </html>

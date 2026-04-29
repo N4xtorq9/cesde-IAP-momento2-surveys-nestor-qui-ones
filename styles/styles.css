@@ -33,6 +33,7 @@ h1 {
 
 .bienvenidos {
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 .subtitulo {
@@ -64,7 +65,12 @@ footer {
 .contacto-legend {
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 
+}
+
+.contact {
+    border-radius: 15px;
 }
 
 .form-container {
@@ -112,3 +118,21 @@ label {
     transform: translateY(0);
 }
 
+.boton-enviar {
+    width: 10%;
+    background-color: #5A7F78;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.boton-enviar:hover {
+    background-color: #314c53;
+    transform: translateY(-2px);
+}
