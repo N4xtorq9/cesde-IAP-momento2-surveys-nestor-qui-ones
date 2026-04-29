@@ -12,7 +12,7 @@ h1 {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: right; 
+    justify-content: center; 
     background-color: #000000; /* Color de fondo para verlo mejor */
 }
 
@@ -42,3 +42,95 @@ h1 {
 footer {
     text-align: center;
 }
+
+.boton-encuesta {
+    border-radius: 10px;
+    background-color: #5A7F78;
+    color: #F7F8FC;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: solid 1px black;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+     text-decoration: none;
+}
+.boton-encuesta:hover {
+    background-color: #314c53;
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contacto-legend {
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.form-container {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilo para los inputs, selects y textareas */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto al hacer clic (Focus) */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #5A7F78;
+    box-shadow: 0 0 8px rgba(90, 127, 120, 0.3);
+}
+
+/* Botón de enviar basado en tu estilo previo */
+.btn-enviar {
+    width: 100%;
+    background-color: #5A7F78;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.btn-enviar:hover {
+    background-color: #314c53;
+    transform: translateY(-2px);
+}
+
+.btn-enviar:active {
+    transform: translateY(0);
+}
+

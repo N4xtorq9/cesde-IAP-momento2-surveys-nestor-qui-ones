@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Contacto</title>
+    <title>Survey</title>
 </head>
+
 <body>
 
     <header>
@@ -21,5 +23,42 @@
             </ul>
         </nav>
     </header>
+
+    <section class="form-container">
+        <form>
+            <h2>Formulario de Encuesta</h2>
+            <p>Por favor, responde las siguientes preguntas:</p>
+            <h4>1. ¿Qué es un algoritmo?</h4>
+
+            <section class="form-group">
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="diario"> Conjunto de pasos ordenados que se siguen para
+                    resolver un problema.
+                </label>
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="semanal"> Un espacio en memoria donde se almacena información
+                </label>
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="mensual"> Un programa que traduce el código
+                </label>
+            </section>
+
+            <h4>2. Menciona tres lenguajes de programación populares</h4>
+
+            <section class="form-group">
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="diario"> Photoshop, Illustrator, InDesign.
+                </label>
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="semanal"> Java, Python y JavaScript.
+                </label>
+                <label class="radio-item">
+                    <input type="radio" name="frecuencia" value="mensual"> frameworks, GitHub, Git
+                </label>
+            </section>
+
+            <button type="submit" class="btn-enviar">Enviar Respuestas</button>
+        </form>
+    </section>
 
 </body>

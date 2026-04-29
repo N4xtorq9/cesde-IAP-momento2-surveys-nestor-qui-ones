@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Contacto</title>
 </head>
+
 <body>
 
     <header>
@@ -23,10 +25,10 @@
     </header>
 
     <main>
-        <h2 align="center"> Contacto </h2>
+        
         <form action="/registro" method="post" enctype="multipart/form-data">
             <fieldset>
-                <legend>Informaciòn Personal</legend>
+                <legend class="contacto-legend">Contacto </legend>
                 Escriba su nombre: <input type="text" id="nombre" name="nombre" placeholder="Nombre"
                     pattern="[a-z]{1,15}" required>
                 <br>
@@ -36,6 +38,12 @@
                     required>
                 <br>
                 <br>
+                <label for="check">Acepta terminos y condiciones</label>
+                <input type="radio" name="" id="">Sí
+                <input type="radio" name="" id="">No
+                
+
+                <br><br>
                 Dejame tu comentario: <br>
 
                 <textarea name="comentario" id="comentario" rows="9" cols="20"></textarea>
@@ -44,4 +52,5 @@
         </form>
     </main>
 </body>
+
 </html>
