@@ -14,10 +14,9 @@ h1 {
     margin: 0;
     display: flex;
     justify-content: center; 
-    background-color: #000000; /* Color de fondo para verlo mejor */
+    background-color: #314c53; 
 }
 
-/* Estilo para los elementos del menú */
 .menu-lista li a {
     display: block;
     padding: 15px 20px;
@@ -26,7 +25,6 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-/* Efecto al pasar el mouse */
 .menu-lista li a:hover {
     background-color: #ffffff;
     color: #000000;
@@ -95,7 +93,7 @@ label {
     color: #333;
 }
 
-/* Botón de enviar basado en tu estilo previo */
+
 .btn-enviar {
     width: 100%;
     background-color: #5A7F78;
