@@ -88,28 +88,6 @@ label {
     color: #333;
 }
 
-/* Estilo para los inputs, selects y textareas */
-input[type="text"],
-select,
-textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-sizing: border-box; /* Importante para que el padding no afecte el ancho */
-    font-size: 16px;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-/* Efecto al hacer clic (Focus) */
-input:focus,
-select:focus,
-textarea:focus {
-    outline: none;
-    border-color: #5A7F78;
-    box-shadow: 0 0 8px rgba(90, 127, 120, 0.3);
-}
-
 /* Botón de enviar basado en tu estilo previo */
 .btn-enviar {
     width: 100%;
